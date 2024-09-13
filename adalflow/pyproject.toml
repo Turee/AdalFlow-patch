@@ -86,7 +86,9 @@ matplotlib = "^3.9.1"
 diskcache = "^5.6.3"
 
 [tool.poetry.group.extra.dependencies]
-datasets = "^2.21.0"[tool.poetry.extras]
+datasets = "^2.21.0"
+
+[tool.poetry.extras]
 openai = ["openai"]
 groq = ["groq"]
 anthropic = ["anthropic"]
